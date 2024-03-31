@@ -1,0 +1,21 @@
+Task 0: O(1)
+Regardless of the size of the texts and calls, only the first and last record are relevant, which can be directly accessed through indexing.
+
+Task 1: O(n)
+The upper bound is the greater size of the length of the calls or length of the texts.
+A dictionary is used to determine if a number was already encountered. This existential check only takes O(1).
+
+Task 2: O(n)
+There is only non-nested for loops.
+
+Task 3:
+PART A: O(n^2)
+Sorting takes O(n log n) but it is overpowered by the complexity of the for loop.
+For each call, we check if the code has already been added to the list. In worst case, each receiver may have distinct codes,
+possibly resulting in searching through n number of codes (corresponding to number of calls), hence O(n*n) complexity.
+
+PART B: O(n)
+It simply loops through list of calls.
+
+Task 4: O(nlogn)
+The for loop is O(n), while sorted takes O(nlogn), which is higher complexity.
