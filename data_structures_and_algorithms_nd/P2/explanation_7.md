@@ -1,0 +1,1 @@
+`insert` and `find` will take O(n) where n is the number of subpaths.
